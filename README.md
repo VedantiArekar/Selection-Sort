@@ -6,14 +6,26 @@ Selection sort is a simple and efficient sorting algorithm that works by repeate
 
 Summary:
 
-Selection sort is a simple and easy-to-understand sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
+1. Selection sort is a simple and easy-to-understand sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
 
-This process is repeated for the remaining unsorted portion of the list until the entire list is sorted.
+2. This process is repeated for the remaining unsorted portion of the list until the entire list is sorted.
 
-It has a time complexity of O(n^2) in the worst and average case which makes it less efficient for large data sets.
+3. It has a time complexity of O(n^2) in the worst and average case which makes it less efficient for large data sets.
 
-Selection sort is a stable sorting algorithm.
+4. Selection sort is a stable sorting algorithm.
 
-It can be used to sort different types of data.
+5. It can be used to sort different types of data.
 
-It has specific applications where it is useful such as small data sets and memory-constrained systems.
+6. It has specific applications where it is useful such as small data sets and memory-constrained systems.
+
+The algorithm maintains two subarrays in a given array.
+
+a. The subarray which already sorted.
+
+b. The remaining subarray was unsorted.
+
+In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the beginning of the sorted subarray. 
+
+After every iteration sorted subarray size increase by one and the unsorted subarray size decrease by one.
+
+After the N (size of the array) iteration, we will get a sorted array.
